@@ -2,7 +2,7 @@
 
 const prettyoutput = require('../lib/prettyoutput')
 const should = require('should') //eslint-disable-line no-unused-vars
-const colors = require('colors/safe')
+const colors = require('chalk')
 
 describe('prettyoutput general tests', () => {
     it('should output a string exactly equal as the input', () => {
