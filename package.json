@@ -36,7 +36,7 @@
     "changelog": "git log $(git describe --tags --abbrev=0)..HEAD --pretty='* %s' --first-parent"
   },
   "files": [
-    "./lib"
+    "lib"
   ],
   "dependencies": {
     "chalk": "^4.1.2",
